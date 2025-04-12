@@ -4,7 +4,7 @@ async function fetchWeather(){
     weatherDataSection.style.display = "block";
     const apiKey = "API KEY HERE";
 
-    if(searchInput === ""){
+    if(searchInput == ""){
         weatherDataSection.innerHTML = `
         <div>
             <h2>Empty Input!</h2>
